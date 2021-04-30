@@ -1,0 +1,32 @@
+.educator-details {
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 8px 10px 6px rgba(131,134,163,.12);
+    border-radius: 20px;
+}
+.educator-details .instructor {
+    box-shadow: none;
+    padding: 0 !important;
+}
+.educator-info {
+    margin-top: 10px;
+}
+.educator-info li {
+    display: flex;
+    align-items: center;
+    color: #777777;
+    font-size: 12px;
+    list-style: none;
+    font-weight: 500;
+    padding: 2px 0px;
+}
+.educator-info li span {
+    font-size: 17px;
+    padding-right: 6px;
+}
+.educator-details h1 {
+    font-size: 18px;
+}
+.educator-details .instructor-desc p:last-child {
+    color: #000000;
+    padding-top: 0;
+}

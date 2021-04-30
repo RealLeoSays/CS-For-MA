@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Fonts-->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="assets/fonts/SF-Pro-Display/font.css">
+     <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <!--Material Icons-->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/style/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/create-workshops.css">
+    <title>Workshops Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <img src="assets/img/Bitmap.png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="dashboard.html"><img src="assets/icon/Combined Shape.svg" alt="">  Dashboard</a></li>
+                <li><a href="workshops.html"><img src="assets/icon/Combined Shape-11.svg" alt=""> WorkShops</a></li>
+                <li><a href="script-workshops.html"><img src="assets/icon/Fill 1.svg" alt=""> SCRIPT WorkShops</a></li>
+                <li><a href="instructors.html"><img src="assets/icon/Combined Shape 3.svg" alt=""> Instructors</a></li>
+                <li><a href="educators.html"><img src="assets/icon/Combined Shape-2.svg" alt=""> Educators</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <div class="user-section">
+                <header class="user-info">
+                    <div class="user-info-btns">
+                        <a class="new-workshop" href="create-workshops.html">Create WorkShop</a>
+                        <button>Create Script WorkShop</button>
+                    </div>
+                    <div class="user-profile">
+                        <div class="notification">
+                            <div class="counter">3</div>
+                            <img src="assets/icon/Group 22.svg" alt="">
+                        </div>
+                        <img class="separator" src="assets/icon/separator.svg" alt="">
+                        <div class="profile">
+                            <div class="profile-pic">
+                                <img src="assets/icon/Bitmap.svg" alt="">
+                            </div>
+                            <div class="profile-name">
+                                <h1>John Grey</h1>
+                                <p>Sign out</p>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="content create-workshops">
+                <h1 class="heading">Create Workshop</h1>
+                <form action="#">
+                    <div class="input-fields">
+                        <div class="input-field">
+                            <label for="title">WorkShop Title</label>
+                            <input type="text" class="input" name="title" placeholder="Type here">
+                        </div>
+                        <div class="input-field">
+                            <label for="email">Invite Instructor</label>
+                            <input type="email" class="input" name="email" placeholder="Type nstructor email">
+                        </div>
+                    </div>
+                    <div class="input-fields">
+                        <div class="input-field">
+                            <label for="type">Workshop Type</label>
+                            <select name="type" class="input">
+                                <option value="value-1">Virtual</option>
+                                <option value="value-2">value-2</option>
+                                <option value="value-3">value-3</option>
+                                <option value="value-4">value-4</option>
+                              </select>
+                        </div>
+                        <div class="input-field">
+                            <label for="url">Link for WorkShop</label>
+                            <input type="url" class="input" name="url" placeholder="Paste URL here">
+                        </div>
+                    </div>
+                   <div class="form-file">
+                       <div class="form-file-border">
+                           <div>
+                               <img src="assets/img/Group 1.png" alt="">
+                               <span style="color: #777777;">Drag & Drop Image here</span>
+                               <span>or</span>
+                           </div>
+                        <label for="file">Browser Image</label>
+                        <input type="file" hidden>
+                       </div>
+                   </div>
+                    <div class="form-desc">
+                        <label for="description">Description</label>
+                        <textarea name="description" class="input" cols="0" rows="5" placeholder="Type here"></textarea>
+                    </div>
+                    <div class="form-by-day">
+                        <div class="form-day">
+                            <h1>Day One</h1>
+                            <button><span class="material-icons">delete_outline</span>Delete</button>
+                        </div>
+                        <div class="form-by-day-inputs">
+                            <div class="input-field">
+                                <label for="title">Title</label>
+                                <input type="text" class="input" name="title" placeholder="Type here">
+                            </div>
+                            <div class="input-field">
+                                <label for="date">Date</label>
+                                <input type="date" class="input" name="date" placeholder="">
+                            </div>
+                            <div class="input-field">
+                                <label for="time">Time</label>
+                                <input type="time" class="input" name="time" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-desc">
+                            <label for="description">Description</label>
+                            <textarea name="description" class="input" cols="0" rows="5" placeholder="Type here"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-by-day">
+                        <div class="form-day">
+                            <h1>Day Two</h1>
+                            <button><span class="material-icons">delete_outline</span>Delete</button>
+                        </div>
+                        <div class="form-by-day-inputs">
+                            <div class="input-field">
+                                <label for="title">Title</label>
+                                <input type="text" class="input" name="title" placeholder="Type here">
+                            </div>
+                            <div class="input-field">
+                                <label for="date">Date</label>
+                                <input type="date" class="input" name="date" placeholder="">
+                            </div>
+                            <div class="input-field">
+                                <label for="time">Time</label>
+                                <input type="time" class="input" name="time" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-desc">
+                            <label for="description">Description</label>
+                            <textarea name="description" class="input" cols="0" rows="5" placeholder="Type here"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-btns">
+                        <button>Save and Publish Workshop</button>
+                        <button>Add Another Day</button>
+                    </div>
+                </form>
+            </div>
+            <footer>
+                <p>©2021 - <span style="color: #005090;">CSforMA</span> | All Right Reserved</p>
+                <img src="assets/icon/powered-by.svg" alt="">
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

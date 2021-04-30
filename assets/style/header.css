@@ -1,0 +1,86 @@
+/*Header*/
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.main-content .user-section {
+    padding: 20px 40px;
+}
+.user-info, .user-work {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+.user-info .user-info-btns .new-workshop {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 12px 35px;
+    background: #0063B2;
+    color: white;
+    border-radius: 5px;
+}
+.user-info .user-info-btns button {
+    background: none;
+    outline: none;
+    color: black;
+    border: 1px solid #FF6177;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 9px 33px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.user-info .user-profile {
+    display: flex;
+    align-items: center;
+}
+.user-profile .notification {
+    padding-right: 30px;
+    width: 26px;
+    height: 27px;
+}
+.notification {
+    position: relative;
+}
+
+.notification .counter {
+    width: 10px;
+    height: 10px;
+    background-color: #FF4F58;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 7px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: translate(-5px, 0);
+}
+.notification span {cursor: pointer;}
+.user-profile .profile {
+    display: flex;
+    padding-left: 30px;
+}
+.user-profile .separator {
+    padding-left: 30px;
+}
+.profile img { 
+    width: 42px;
+    height: 42px;
+}
+.profile .profile-name {
+    padding-left: 8px;
+    padding-top: 6px;
+}
+.profile h1 {
+    font-size: 15px;
+    margin: 0;
+}
+.profile p {
+    font-size: 10px;
+    color: #636363;
+}

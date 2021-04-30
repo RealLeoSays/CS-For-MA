@@ -1,0 +1,123 @@
+/*Card*/
+.user-work {margin-top: 25px;}
+.user-work h1 {
+    font-size: 35px;
+}
+.user-work button {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding: 12px 35px;
+    background: white;
+    color: #0A69B5;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 8px 10px 6px rgba(131,134,163,.12);
+}
+.user-work button:last-child {
+    color: #545657;
+    background: #EFF5F9;
+    margin-left: 15px;
+    box-shadow: none;
+}
+.dashboard-items {
+    margin: 0px 40px;
+    padding: 25px 0px;
+}
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.item {
+    border-radius: 20px;
+    box-shadow: 0 8px 10px 6px rgba(131,134,163,.12);
+    overflow: hidden;
+    position: relative;
+}
+.item .info-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transform: translate(-10px, 10px);
+}
+.item img {
+    width: 100%;
+    height: 200px;
+}
+.item-desc {
+    padding: 12px;
+}
+.item-desc h1 {
+    font-size: 18px;
+}
+.item-desc p {
+    padding: 10px 0px;
+    font-size: 14px;
+}
+.item-desc ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-desc ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #777777;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.item-desc ul li span {
+    padding-right: 6px;
+}
+.item-desc .item-btns {
+    display: flex;
+    margin-top: 10px;
+}
+.item-btns button:first-child {
+    width: 80%;
+}
+.item-btns button {
+    outline: none;
+    border: none;
+    font-size: 13px;
+    padding: 10px 0px;
+    background: #0063B2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.item-btns button:last-child {
+    color: black;
+    background: #F2FCFA;
+    padding: 10px 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.item-desc button span {
+    font-size: 17px;
+    color: #03CEA4;
+    padding-right: 6px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 700px) {
+    .items {
+        grid-template-columns: 1fr;
+    }
+}    
