@@ -82,7 +82,7 @@
                             <li><span class="material-icons">location_on</span>1710 Blanc Ln, FL 32577</li>
                         </ul>
                         <div class="item-btns">
-                            <button>See Details</button>
+                            <button class="see-details-action">See Details</button>
                             <button><span class="material-icons">edit</span>Edit</button>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                             <li><span class="material-icons">location_on</span>1710 Blanc Ln, FL 32577</li>
                         </ul>
                         <div class="item-btns">
-                            <button>See Details</button>
+                            <button class="see-details-action">See Details</button>
                             <button><span class="material-icons">edit</span>Edit</button>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                             <li><span class="material-icons">location_on</span>1710 Blanc Ln, FL 32577</li>
                         </ul>
                         <div class="item-btns">
-                            <button>See Details</button>
+                            <button class="see-details-action">See Details</button>
                             <button><span class="material-icons">edit</span>Edit</button>
                         </div>
                     </div>
@@ -129,6 +129,16 @@
                 <img src="assets/icon/powered-by.svg" alt="">
             </footer>
         </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function(event) {
+                const items = Array.from(document.querySelectorAll('.see-details-action'));
+                for(let item of items){
+                    item.addEventListener('click', ()=>{
+                        location = './details.html'
+                    })
+                }
+            });
+        </script>
     </div>
 </body>
 </html>
