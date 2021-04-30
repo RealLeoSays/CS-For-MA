@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Fonts-->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="assets/fonts/SF-Pro-Display/font.css">
+    <!--Material Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/style/navbar.css">
+    <link rel="stylesheet" href="assets\style\header.css">
+    <link rel="stylesheet" href="assets/style/card.css">
+    <link rel="stylesheet" href="assets\style\main.css">
+    <link rel="stylesheet" href="assets\style\pastworkshops.css">
+    <link rel="stylesheet" href="assets\style\card_status.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <img src="assets/img/Bitmap.png">
+            </div>
+            <ul class="nav-links">
+                <li><a class="active" href="dashboard.html"><img src="assets/icon/Combined Shape.svg" alt="">  Dashboard</a></li>
+                <li><a href="workshops.html"><img src="assets/icon/Combined Shape-11.svg" alt=""> WorkShops</a></li>
+                <li><a href="script-workshops.html"><img src="assets/icon/Fill 1.svg" alt=""> SCRIPT Workshops</a></li>
+                <li><a href="instructors.html"><img src="assets/icon/Combined Shape 3.svg" alt=""> Instructors</a></li>
+                <li><a href="educators.html"><img src="assets/icon/Combined Shape-2.svg" alt=""> Educators</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <div class="user-section">
+                <header class="user-info">
+                    <div class="user-info-btns">
+                        <a class="new-workshop" href="create-workshops.html">Create WorkShop</a>
+                        <button>Create Script WorkShop</button>
+                    </div>
+                    <div class="user-profile">
+                        <div class="notification">
+                            <div class="counter">3</div>
+                            <img src="assets/icon/Group 22.svg" alt="">
+                        </div>
+                        <img class="separator" src="assets/icon/separator.svg" alt="">
+                        <div class="profile">
+                            <div class="profile-pic">
+                                <img src="assets/icon/Bitmap.svg" alt="">
+                            </div>
+                            <div class="profile-name">
+                                <h1>John Grey</h1>
+                                <p>Sign out</p>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        
+            <div class="content">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card custom-card">
+                            <div class="card-body w-100 p-0">
+                               <div class="card-status">
+                                   <div class="status-content">
+                                       <div class="status-heading">400</div>
+                                       <div class="status-paragraph">Past WorkShops</div>
+                                   </div>
+                                   <div class="status-image">
+                                       <div class="status-image-circle">
+                                        <img class="icon1"src="assets\icon\Combined Shape 7.svg">
+                                       </div>
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card custom-card">
+                            <div class="card-body w-100 p-0">
+                               <div class="card-status">
+                                   <div class="status-content1">
+                                       <div class="status-heading1">110</div>
+                                       <div class="status-paragraph">Active WorkShops</div>
+                                   </div>
+                                   <div class="status-image">
+                                       <div class="status-image-circle1">
+                                        <img class="icon1"src="assets\icon\Combined Shape 5.svg">
+                                       </div>
+                                       
+                                   </div>
+                
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card custom-card">
+                            <div class="card-body w-100 p-0">
+                               <div class="card-status">
+                                   <div class="status-content2">
+                                       <div class="status-heading2">35</div>
+                                       <div class="status-paragraph">Script WorkShops</div>
+                                   </div>
+                                   <div class="status-image">
+                                       <div class="status-image-circle2">
+                                        <img class="icon3"src="assets\icon\Fill 23.svg">
+                                       </div>
+                                       
+                                   </div>
+                
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                                
+            </div>
+            <div class="past-workshop">
+              <div class="past-workshop-heading">
+                  Past workshops
+              </div>
+              <div class="past-workshop-dropdown">
+                  <div class="past-workshop-dropdown1">
+                    <div class="input-group date-picker ">
+                        <input type="text" class="form-control remove-merging bg-none" value="March 1,2021" >
+                        <div class="input-group-append">
+                          <span class="input-group-text  addon" id="basic-addon2"><img src="assets\icon\Path 2 Copy 4.svg"></span>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="past-workshop-dropdown2">
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1" >
+                          <option value="select the workshop" disabled selected>Select the workshop</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                 </div>
+              </div>
+            </div>
+            <div class="student-attendance-graph">
+                <img class="student-attendance-graph-image" src="assets/img/Group 21.png">
+            </div>
+            <div class="recently-created-workshop">
+                <div class="recently-created-workshop-heading ">Recently Created Workshops</div>
+                <div class="combine-arrow-button">
+                    <div class="recently-created-workshop-button ">
+                        <button type="button" class="btn bg-white" >See All</button>
+                    </div>
+                    <div class="recently-created-workshop-arrows">
+                        <div class="left-arrow">
+                            <div class="placement-arrow"><img src="assets/icon/Group 5.png"></div>
+                        </div>
+                        <div class="right-arrow">
+                            <div class="placement-arrow"><img src="assets/icon/rightarrow.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="items dashboard-items">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="assets/img/p-8.jpg">
+                    </div>
+                    <div class="item-desc">
+                        <h1>Join us for special event featuring Arne Duncan, former U.S...</h1>
+                        <p>- By Alberta Berg</p>
+                        <ul>
+                            <li><span class="material-icons">event</span>Thursday, April 15</li>
+                            <li><span class="material-icons">watch_later</span>10 am PST / 1 pm EST</li>
+                            <li><span class="material-icons">location_on</span>1710 Blanc Ln, FL 32577</li>
+                        </ul>
+                        <div class="item-btns">
+                            <button>See Details</button>
+                            <button><span class="material-icons">edit</span>Edit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="assets/img/p-9.jpg">
+                    </div>
+                    <div class="item-desc">
+                        <h1>Join us for special event featuring Arne Duncan, former U.S...</h1>
+                        <p>- By Alberta Berg</p>
+                        <ul>
+                            <li><span class="material-icons">event</span>Thursday, April 15</li>
+                            <li><span class="material-icons">watch_later</span>10 am PST / 1 pm EST</li>
+                            <li><span class="material-icons">location_on</span>1710 Blanc Ln, FL 32577</li>
+                        </ul>
+                        <div class="item-btns">
+                            <button>See Details</button>
+                            <button><span class="material-icons">edit</span>Edit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="assets/img/p-3.jpg">
+                    </div>
+                    <div class="item-desc">
+                        <h1>Join us for special event featuring Arne Duncan, former U.S...</h1>
+                        <p>- By Alberta Berg</p>
+                        <ul>
+                            <li><span class="material-icons">event</span>Thursday, April 15</li>
+                            <li><span class="material-icons">watch_later</span>10 am PST / 1 pm EST</li>
+                            <li><span class="material-icons">location_on</span>1710 Blanc Ln, FL 32577</li>
+                        </ul>
+                        <div class="item-btns">
+                            <button>See Details</button>
+                            <button><span class="material-icons">edit</span>Edit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>©2021 - <span style="color: #005090;">CSforMA</span> | All Right Reserved</p>
+                <img src="assets/icon/powered-by.svg" alt="">
+            </footer>
+        </div>
+    </div>
+</body>
+
+
+
