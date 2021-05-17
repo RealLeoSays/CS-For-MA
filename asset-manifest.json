@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/CS-For-MA/static/css/main.58dff770.chunk.css",
-    "main.js": "/CS-For-MA/static/js/main.cda3ac57.chunk.js",
-    "main.js.map": "/CS-For-MA/static/js/main.cda3ac57.chunk.js.map",
-    "runtime-main.js": "/CS-For-MA/static/js/runtime-main.ab663b0f.js",
-    "runtime-main.js.map": "/CS-For-MA/static/js/runtime-main.ab663b0f.js.map",
-    "static/css/2.4c78f058.chunk.css": "/CS-For-MA/static/css/2.4c78f058.chunk.css",
-    "static/js/2.acf2a601.chunk.js": "/CS-For-MA/static/js/2.acf2a601.chunk.js",
-    "static/js/2.acf2a601.chunk.js.map": "/CS-For-MA/static/js/2.acf2a601.chunk.js.map",
-    "static/js/3.937e4939.chunk.js": "/CS-For-MA/static/js/3.937e4939.chunk.js",
-    "static/js/3.937e4939.chunk.js.map": "/CS-For-MA/static/js/3.937e4939.chunk.js.map",
+    "main.css": "/CS-For-MA/static/css/main.1cc3103f.chunk.css",
+    "main.js": "/CS-For-MA/static/js/main.f78e8621.chunk.js",
+    "main.js.map": "/CS-For-MA/static/js/main.f78e8621.chunk.js.map",
+    "runtime-main.js": "/CS-For-MA/static/js/runtime-main.3d9fcf01.js",
+    "runtime-main.js.map": "/CS-For-MA/static/js/runtime-main.3d9fcf01.js.map",
+    "static/css/2.5e92241e.chunk.css": "/CS-For-MA/static/css/2.5e92241e.chunk.css",
+    "static/js/2.e21d6949.chunk.js": "/CS-For-MA/static/js/2.e21d6949.chunk.js",
+    "static/js/2.e21d6949.chunk.js.map": "/CS-For-MA/static/js/2.e21d6949.chunk.js.map",
+    "static/js/3.1957a2aa.chunk.js": "/CS-For-MA/static/js/3.1957a2aa.chunk.js",
+    "static/js/3.1957a2aa.chunk.js.map": "/CS-For-MA/static/js/3.1957a2aa.chunk.js.map",
     "index.html": "/CS-For-MA/index.html",
-    "static/css/2.4c78f058.chunk.css.map": "/CS-For-MA/static/css/2.4c78f058.chunk.css.map",
-    "static/css/main.58dff770.chunk.css.map": "/CS-For-MA/static/css/main.58dff770.chunk.css.map",
-    "static/js/2.acf2a601.chunk.js.LICENSE.txt": "/CS-For-MA/static/js/2.acf2a601.chunk.js.LICENSE.txt",
+    "static/css/2.5e92241e.chunk.css.map": "/CS-For-MA/static/css/2.5e92241e.chunk.css.map",
+    "static/css/main.1cc3103f.chunk.css.map": "/CS-For-MA/static/css/main.1cc3103f.chunk.css.map",
+    "static/js/2.e21d6949.chunk.js.LICENSE.txt": "/CS-For-MA/static/js/2.e21d6949.chunk.js.LICENSE.txt",
     "static/media/Bitmap.847fe1d7.svg": "/CS-For-MA/static/media/Bitmap.847fe1d7.svg",
     "static/media/Combined Shape 3.eb68f3c0.svg": "/CS-For-MA/static/media/Combined Shape 3.eb68f3c0.svg",
     "static/media/Combined Shape 5.f1b5aad7.svg": "/CS-For-MA/static/media/Combined Shape 5.f1b5aad7.svg",
@@ -43,6 +43,7 @@
     "static/media/Mask.16e3d30d.png": "/CS-For-MA/static/media/Mask.16e3d30d.png",
     "static/media/Path.8d008e9c.svg": "/CS-For-MA/static/media/Path.8d008e9c.svg",
     "static/media/Rectangle.de9a00f2.svg": "/CS-For-MA/static/media/Rectangle.de9a00f2.svg",
+    "static/media/main.scss": "/CS-For-MA/static/media/SF-Pro-Display-UltralightItalic.14706eb6.otf",
     "static/media/attendacne-2.0985644c.svg": "/CS-For-MA/static/media/attendacne-2.0985644c.svg",
     "static/media/attendance-3.f063da53.svg": "/CS-For-MA/static/media/attendance-3.f063da53.svg",
     "static/media/attendance.5e9c6a7e.svg": "/CS-For-MA/static/media/attendance.5e9c6a7e.svg",
@@ -66,10 +67,10 @@
     "static/media/user-1.b8c9c72a.svg": "/CS-For-MA/static/media/user-1.b8c9c72a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab663b0f.js",
-    "static/css/2.4c78f058.chunk.css",
-    "static/js/2.acf2a601.chunk.js",
-    "static/css/main.58dff770.chunk.css",
-    "static/js/main.cda3ac57.chunk.js"
+    "static/js/runtime-main.3d9fcf01.js",
+    "static/css/2.5e92241e.chunk.css",
+    "static/js/2.e21d6949.chunk.js",
+    "static/css/main.1cc3103f.chunk.css",
+    "static/js/main.f78e8621.chunk.js"
   ]
 }
